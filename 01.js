@@ -11,10 +11,13 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
+var arraynum = []
 
+for (pos of array){if(!isNaN(pos)){arraynum.push(pos)}}
+return arraynum
 }
-
 // No modifiques nada debajo de esta linea //
+
 
 
 module.exports = soloNumeros
