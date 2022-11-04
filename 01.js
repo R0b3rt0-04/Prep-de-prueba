@@ -13,7 +13,7 @@ function soloNumeros(array) {
   // Tu código aca:
 var arraynum = []
 
-for (pos of array){if(!isNaN(pos)){arraynum.push(pos)}}
+for(pos of array){if(!isNaN(pos)){arraynum.push(pos)}}
 return arraynum
 }
 // No modifiques nada debajo de esta linea //

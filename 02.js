@@ -15,7 +15,6 @@ function stringMasLarga(strings) {
 
 var longger = ''
 
-
 for(var i = 0; i < strings.length; i++){if(strings[i].length > longger.length){longger = strings[i] }}
 return longger;
 }

@@ -5,6 +5,7 @@
   No comentar la funcion 
 */
 
+
 function numeroSimetrico(num) {
   // La funcion llamada 'numeroSimetrico' recibe como argumento un numero entero 'num'
   // Esta devuelve true o false dependiendo de si el número es simétrico o no. 
@@ -13,8 +14,16 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
+  var normal = String(num)
+  var invertida = ''
+    for(var i = normal.length - 1; i >= 0 ; i--){
+      invertida += normal[i] 
+    }
+    return (normal === invertida);
+  
+  }
 
-}
+
 
 // No modifiques nada debajo de esta linea //
 
